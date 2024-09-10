@@ -1,5 +1,5 @@
 +++
 title = ''
-date = 2024-09-08T18:56:52+03:00
-draft = true
+date = 2024-09-10T21:46:46+03:00
+draft = false
 +++
