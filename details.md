@@ -50,3 +50,29 @@ Code blocks
 ```csharp 
 console.writeLine("Hello World!");
 ```
+
+To summon a function in a huge use {{ function }}
+# variable
+{{ $variable := "value"}}
+and to use the variable {{ $variable}}
+we can take variables from content folder +++ myName = "wessam" +++
+and use it in latter by identifying it first     {{ $myName := .Params.myName}}
+then use it     {{ $myName }}
+
+# if
+```go
+{{ if eq $var 6 }}
+  {{ print "var is 6" }}
+{{ else if eq $var 7 }}
+  {{ print "var is 7" }}
+{{ else if eq $var 42 }}
+  {{ print "var is 42" }}
+{{ else }}
+  {{ print "var is something else" }}
+{{ end }}
+```
+eq : = equal
+lt : > less than
+le : >= less than or equal 
+gt : < greater than
+ge : <= greater than or equel

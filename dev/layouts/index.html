@@ -8,6 +8,10 @@
 <body>
     {{ range .Pages}}
     <a href="{{.RelPermalink}}">{{.Title}}</a>
+    {{ .Content }}
+    {{ $myName := .Params.myName}}
+    <br>
+    {{ $myName }}
     {{ end }}
 </body>
 </html>
