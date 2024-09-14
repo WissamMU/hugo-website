@@ -1,0 +1,42 @@
+{ 
+    "skill1": {
+        "title": "bootstrap",
+        "percent": "80%",
+        "color": "#e749a0"
+    },
+    "skill2": {
+        "title": "javascript",
+        "percent": "60%",
+        "color": "#87bdf4"
+    },
+    "skill3": {
+        "title": "j-query",
+        "percent": "70%",
+        "color": "#f4a950"
+    },
+    "skill4": {
+        "title": "html",
+        "percent": "95%",
+        "color": "#8dd352"
+    },
+    "skill5": {
+        "title": "css",
+        "percent": "82%",
+        "color": "#000000"
+    },
+    "skill6": {
+        "title": "hugo",
+        "percent": "75%",
+        "color": "#f75eee"
+    },
+    "skill7": {
+        "title": "scss",
+        "percent": "85%",
+        "color": "#009fdc"
+    },
+    "skill8": {
+        "title": "webpack",
+        "percent": "99%",
+        "color": "#f8874f"
+    }
+}
