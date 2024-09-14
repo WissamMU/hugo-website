@@ -1,5 +1,12 @@
 {{ define "main"}}
 
-{{  partial "cover" . }}
+    {{  partial "cover" . }}
+    <div class="page-body">
+        <div class="page-body__container">
+            <div class="row">
+                {{ partial "personal-info" . }}
+            </div>
+        </div>
+    </div>
 
 {{ end }}

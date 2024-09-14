@@ -9,7 +9,7 @@
     --radius: 5px;
 }
 
-/*-general-*/
+/* general */
 
 body {
     overflow-x: hidden;
@@ -26,7 +26,7 @@ body {
     box-sizing: border-box;
 }
 
-/*-cover-*/
+/* cover */
 
 .cover {
     width: 100%;
@@ -73,4 +73,95 @@ body {
     font-size: 18px;
     line-height: 33px;
     margin-bottom: 0;
+}
+
+/* common  */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    border-radius: var(--radius);
+    padding: 15px 20px;
+    min-height: 350px;
+    width: 100%;
+    box-shadow: var(--shadow);
+}
+
+.card>h2 {
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 10px;
+}
+
+.line {
+    display: flex;
+    flex-direction: column;
+}
+
+.line:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.line__head {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.line__head i {
+    margin-left: 10px;
+    color: var(--secondary);
+}
+
+.line__head h3 {
+    margin: 0;
+}
+
+.line__head h4 {
+    width: 100%;
+    margin: 6px 0 0 0;
+    color: var(--secondary);
+}
+
+.line__body p {
+    margin: 0;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/*-page container-*/
+
+.page-body {
+    width: 100%;
+    padding: 50px 20px;
+}
+
+.page-body__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+
+/* responsive */
+
+/* greater than 900px */
+
+
+@media (min-width: 900px) {
+    .card--full {
+        width: 100% !important;
+    }
+
+    .card--half {
+        width: 48% !important;
+    }
 }

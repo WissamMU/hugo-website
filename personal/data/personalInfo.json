@@ -1,0 +1,22 @@
+{ 
+    "fullName": {
+        "title": "الاسم",
+        "icon": "fas fa-user-alt",
+        "content": "وسام محمد مصطفى"
+    },
+    "maritalStatus": {
+        "title": "الحالة الإجتماعية",
+        "icon": "fas fa-heart",
+        "content": "عازب"
+    },
+    "myBirthday": {
+        "title": "تاريخ الميلاد",
+        "icon": "fas fa-birthday-cake",
+        "content": "2003-1-3" 
+    },
+    "nationality": {
+        "title": "الجنسية",
+        "icon": "fas fa-flag",
+        "content": "سوري"
+    }
+}
