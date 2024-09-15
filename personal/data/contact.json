@@ -1,22 +1,22 @@
-{ 
+{
     "call": {
         "title": "الهاتف المحمول",
         "icon": "fas fa-phone",
-        "content": "00 0000 000 00"
+        "content": "+966 50 830 6463"
     },
     "chat": {
         "title": "مراسلة عبر واتس أب",
         "icon": "fab fa-whatsapp",
-        "content": "00 0000 00 00"
+        "content": "+966 50 830 6463"
     },
     "email1": {
-        "title": "البريد الإلكتروني الشخصى",
-        "icon": "fas fa-envelope",
-        "content": "example1@example.com"
-    },
-    "email2": {
         "title": "البريد الإلكتروني الخاص بالعمل",
         "icon": "fas fa-envelope",
-        "content": "example1@example.com"
+        "content": "wissam.2003.ali@gmail.com"
+    },
+    "email2": {
+        "title": "البريد الإلكتروني الشخصى",
+        "icon": "fas fa-envelope",
+        "content": "wesaamali1@gmail.com"
     }
 }
