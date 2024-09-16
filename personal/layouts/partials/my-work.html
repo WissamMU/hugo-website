@@ -1,5 +1,6 @@
 <div class="card card--full">
-    <h2>أعمالي السابقة</h2>
+    <h2>أعمالي السابقة <p>اضغط على الصورة للذهاب للعمل</p>
+    </h2>
 
     <div class="slides-container" id="work">
 
@@ -9,7 +10,14 @@
 
             <div class="slides fade">
                 <div class="image-holder">
-                    <img src="{{ .src }}" alt="معرض الاعمال">
+                    <div class="overlay">
+                        <a class="visit-btn" href="{{ .link }}" target="_blank">
+                                اذهب الى الموقع
+                        </a>
+                    </div>
+                    <a href="{{ .link }}" target="_blank">
+                        <img src="{{ .src }}" alt="معرض الاعمال">
+                    </a>
                 </div>
             </div>
 

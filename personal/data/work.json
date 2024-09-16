@@ -1,14 +1,19 @@
 { 
     "work1": {
-        "src": "images/slide1.jpg"
+        "src": "images/slide1.jpg",
+        "link": "https://wissammu.github.io/gitpage-webstore/"
     },
     "work2": {
-        "src": "images/slide2.jpg"
+        "src": "images/slide2.jpg",
+        "link": "https://company-4kp.pages.dev/"
     },
     "work3": {
-        "src": "images/slide3.jpg"
+        "src": "images/slide3.jpg",
+        "link": "https://wissammu.github.io/controlPanel/"
     },
     "work4": {
-        "src": "images/slide4.jpg"
+        "src": "images/slide4.jpg",
+        "link": "https://github.com/WissamMU/webDevelopment-journey"
     }
 }
+ 
