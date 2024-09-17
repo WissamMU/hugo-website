@@ -1,0 +1,4 @@
+baseURL = ''
+relativerURL = 'True'
+languageCode = 'ar'
+title = 'مدونة باستخدام هيوجو'
