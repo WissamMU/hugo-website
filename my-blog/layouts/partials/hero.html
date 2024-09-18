@@ -1,0 +1,21 @@
+{{ $indicator := .Params.flag}}
+{{ $landing := "landing-page"}}
+{{ $posts := "post-page"}}
+<div class="
+    hero
+    {{ if eq $indicator $landing}}
+     hero--landing
+    {{ end }}
+">
+
+    <div class="hero__container">
+        {{ if eq $indicator $landing}}
+        <h1> {{ .Params.firstTitle}} </h1>
+        <p> {{ .Params.secendTitle}} </p>
+        <a href="/posts/">
+            جميع التدوينات
+        </a>
+        {{ end }}
+    </div>
+
+</div>

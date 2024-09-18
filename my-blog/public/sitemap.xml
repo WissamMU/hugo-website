@@ -3,9 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>//localhost:1313/categories/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/post1/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-11/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-12/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%B3%D8%A7%D8%AF%D8%B3/</loc>
+    <lastmod>2024-09-19T00:13:07+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2024-09-19T00:11:49+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2024-09-18T23:49:08+03:00</lastmod>
   </url>
 </urlset>
