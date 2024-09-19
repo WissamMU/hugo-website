@@ -76,3 +76,7 @@ lt : > less than
 le : >= less than or equal 
 gt : < greater than
 ge : <= greater than or equel
+
+
+some hugo tools i guess
+1. truncate 5 :   used to limit the length of a text content and add an ellipsis (...) 

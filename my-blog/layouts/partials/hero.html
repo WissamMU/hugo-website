@@ -1,12 +1,15 @@
 {{ $indicator := .Params.flag}}
 {{ $landing := "landing-page"}}
-{{ $posts := "post-page"}}
+{{ $post := "post-page"}}
 <div class="
     hero
     {{ if eq $indicator $landing}}
      hero--landing
+    {{else}}hero--default
     {{ end }}
-">
+    "
+    style="{{ if eq $indicator $post }} background-image: linear-gradient( rgb(255 255 255 / 70%), rgb(255 255 255 / 90%)), url('{{ .Params.thumb | relURL }}'); {{ end }}">
+
 
     <div class="hero__container">
         {{ if eq $indicator $landing}}
@@ -15,6 +18,15 @@
         <a href="/posts/">
             جميع التدوينات
         </a>
+
+        {{ else if eq $indicator $post}}
+        <h1> {{.Title}} </h1>
+        <ul>
+            {{ range (.GetTerms "tags")}}
+            <li><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>
+            {{ end }}
+        </ul>
+
         {{ end }}
     </div>
 

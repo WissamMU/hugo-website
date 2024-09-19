@@ -6,8 +6,22 @@
     <description>Recent content in تجريبى 2 on مدونة باستخدام هيوجو</description>
     <generator>Hugo</generator>
     <language>ar</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:47:37 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:47:45 +0200</lastBuildDate>
     <atom:link href="//localhost:1313/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>التدوينة الثانية عشر</title>
+      <link>//localhost:1313/posts/post12/</link>
+      <pubDate>Wed, 02 Jun 2021 00:47:45 +0200</pubDate>
+      <guid>//localhost:1313/posts/post12/</guid>
+      <description>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</description>
+    </item>
+    <item>
+      <title>التدوينة الحادية عشر</title>
+      <link>//localhost:1313/posts/post11/</link>
+      <pubDate>Wed, 02 Jun 2021 00:47:41 +0200</pubDate>
+      <guid>//localhost:1313/posts/post11/</guid>
+      <description>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</description>
+    </item>
     <item>
       <title>التدوينة العاشرة</title>
       <link>//localhost:1313/posts/post10/</link>

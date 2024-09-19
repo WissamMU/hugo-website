@@ -6,13 +6,41 @@
     <description>Recent content in Categories on مدونة باستخدام هيوجو</description>
     <generator>Hugo</generator>
     <language>ar</language>
-    <lastBuildDate>Wed, 02 Jun 2021 00:47:37 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jun 2021 00:47:45 +0200</lastBuildDate>
     <atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>قسم اول</title>
       <link>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%A7%D9%88%D9%84/</link>
-      <pubDate>Wed, 02 Jun 2021 00:47:37 +0200</pubDate>
+      <pubDate>Wed, 02 Jun 2021 00:47:45 +0200</pubDate>
       <guid>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%A7%D9%88%D9%84/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>قسم ثانى</title>
+      <link>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AB%D8%A7%D9%86%D9%89/</link>
+      <pubDate>Wed, 02 Jun 2021 00:47:32 +0200</pubDate>
+      <guid>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AB%D8%A7%D9%86%D9%89/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>قسم ثالث</title>
+      <link>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AB%D8%A7%D9%84%D8%AB/</link>
+      <pubDate>Tue, 01 Jun 2021 19:22:11 +0200</pubDate>
+      <guid>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AB%D8%A7%D9%84%D8%AB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>قسم رابع</title>
+      <link>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%B1%D8%A7%D8%A8%D8%B9/</link>
+      <pubDate>Tue, 01 Jun 2021 19:21:59 +0200</pubDate>
+      <guid>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%B1%D8%A7%D8%A8%D8%B9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>قسم خامس</title>
+      <link>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AE%D8%A7%D9%85%D8%B3/</link>
+      <pubDate>Tue, 01 Jun 2021 19:21:43 +0200</pubDate>
+      <guid>//localhost:1313/categories/%D9%82%D8%B3%D9%85-%D8%AE%D8%A7%D9%85%D8%B3/</guid>
       <description></description>
     </item>
     <item>
