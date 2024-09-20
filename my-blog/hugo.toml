@@ -2,3 +2,8 @@ baseURL = ''
 relativerURL = 'True'
 languageCode = 'ar'
 title = 'مدونة باستخدام هيوجو'
+paginate = 9
+
+[permalinks]
+  posts = "/topics/:title/"
+ 

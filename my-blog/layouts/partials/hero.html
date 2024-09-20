@@ -1,10 +1,16 @@
 {{ $indicator := .Params.flag}}
 {{ $landing := "landing-page"}}
 {{ $post := "post-page"}}
+{{ $posts := "posts-page"}}
+{{ $tags := "tags-page"}}
+{{ $categories := "categories-page"}}
 <div class="
     hero
     {{ if eq $indicator $landing}}
      hero--landing
+     {{ else if eq $indicator $posts}} hero--posts
+      {{ else if eq $indicator $tags}} hero--tag
+        {{ else if eq $indicator $categories}} hero--category
     {{else}}hero--default
     {{ end }}
     "
@@ -18,7 +24,12 @@
         <a href="/posts/">
             جميع التدوينات
         </a>
-
+        {{ else if eq $indicator $posts}}
+        <h1> {{.Title }}</h1>
+        {{ else if eq $indicator $tags}}
+        <h1> {{.Title }}</h1>
+        {{ else if eq $indicator $categories}}
+        <h1> {{.Title }}</h1>
         {{ else if eq $indicator $post}}
         <h1> {{.Title}} </h1>
         <ul>

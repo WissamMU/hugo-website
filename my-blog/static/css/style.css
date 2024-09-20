@@ -352,11 +352,11 @@ footer p{
 }
 
 
-/*-card style-*/
+/* card style */
 .row{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -20px;
+    margin: 0 20px;
 }
 
 .card{
@@ -422,10 +422,50 @@ footer p{
 
 /* responsive */
 
-/* less then 767px */
-@media (max-width: 768px){
+
+
+/* less then 990px */
+
+@media (max-width: 990px){
+    .card-body > div > a{
+        font-size: 14px;
+    }
+}
+
+/* less then 900px */
+
+@media (max-width: 900px){
+    .hero__container > h1 {
+        font-size: 30px;
+    }
+    .hero__container > p {
+        margin: 20px 0 25px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .card{
+        width: 50%;
+    }
+}
+
+/* less then 773px */
+
+@media (max-width: 773px){
+    .navbar--show{
+        border-bottom: 1px solid transparent;
+    }
+    .card{
+        width: 100%;
+    }
+    .sub-block {
+        width: 50%;
+    }
+    .sub-block > a {
+        padding: 50px 0;
+        font-size: 22px;
+    }
     .phone-menu{
-        display: flex !important;
+        display: flex;
         font-size: 20px;
         cursor: pointer;
         z-index: 2;
