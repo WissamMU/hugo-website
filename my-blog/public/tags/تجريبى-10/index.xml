@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>تجريبى 10 on مدونة باستخدام هيوجو</title>
-    <link>//localhost:1313/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-10/</link>
+    <link>/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-10/</link>
     <description>Recent content in تجريبى 10 on مدونة باستخدام هيوجو</description>
     <generator>Hugo</generator>
     <language>ar</language>
     <lastBuildDate>Tue, 01 Jun 2021 19:21:43 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-10/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%89-10/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>التدوينة الثالثة</title>
-      <link>//localhost:1313/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/</link>
+      <link>/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/</link>
       <pubDate>Tue, 01 Jun 2021 19:21:43 +0200</pubDate>
-      <guid>//localhost:1313/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/</guid>
+      <guid>/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%84%D8%AB%D8%A9/</guid>
       <description>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</description>
     </item>
     <item>
       <title>التدوينة الثانية</title>
-      <link>//localhost:1313/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/</link>
+      <link>/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/</link>
       <pubDate>Sun, 30 May 2021 20:11:52 +0200</pubDate>
-      <guid>//localhost:1313/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/</guid>
+      <guid>/topics/%D8%A7%D9%84%D8%AA%D8%AF%D9%88%D9%8A%D9%86%D8%A9-%D8%A7%D9%84%D8%AB%D8%A7%D9%86%D9%8A%D8%A9/</guid>
       <description>هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها</description>
     </item>
   </channel>
