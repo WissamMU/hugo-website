@@ -1,19 +1,28 @@
 { 
     "work1": {
         "src": "images/slide1.jpg",
-        "link": "https://wissammu.github.io/gitpage-webstore/"
+        "link": "https://wissammu.github.io/gitpage-webstore/",
+        "Details" : "واجهة متجر الكتروني باستخدام بوتستراب"
     },
     "work2": {
         "src": "images/slide2.jpg",
-        "link": "https://company-4kp.pages.dev/"
+        "link": "https://company-4kp.pages.dev/",
+        "Details" : " موقع شركة باستخدام sass"
     },
     "work3": {
         "src": "images/slide3.jpg",
-        "link": "https://wissammu.github.io/controlPanel/"
+        "link": "https://wissammu.github.io/controlPanel/",
+        "Details" : "لوحة تحكم "
     },
     "work4": {
         "src": "images/slide4.jpg",
-        "link": "https://github.com/WissamMU/webDevelopment-journey"
+        "link": "https://hugo-website-1ak.pages.dev/",
+        "Details" : "صفحة شخصية باستخدام هيوجو"
+    },
+    "work5": {
+        "src": "images/slide5.jpg",
+        "link": "https://github.com/WissamMU/webDevelopment-journey",
+        "Details" : "صفحتي على جيت هب لرؤية المزيد من المشاريع"
     }
 }
  

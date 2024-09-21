@@ -264,6 +264,7 @@ body {
     opacity: 1;
     display: grid;
     place-items: center;
+    margin-top: 10px;
 }
 
 .slides-BTNS .prev i,
@@ -271,6 +272,11 @@ body {
     color: var(--gray-dark) !important;
 }
 
+.work-details{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 /* slider */
 
