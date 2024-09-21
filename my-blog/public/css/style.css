@@ -46,7 +46,7 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 9999;
+    z-index: 3;
     transition: var(--transition);
     border-bottom: 1px solid transparent;
 }
@@ -357,6 +357,12 @@ footer p{
     display: flex;
     flex-wrap: wrap;
     margin: 0 20px;
+}
+
+.main-row{
+    margin: -40px 20px 0 !important;
+    position: relative;
+    z-index: 4;
 }
 
 .card{
