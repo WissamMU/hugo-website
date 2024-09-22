@@ -264,10 +264,7 @@ body {
     opacity: 1;
     display: grid;
     place-items: center;
-<<<<<<< HEAD
-=======
     margin-top: 10px;
->>>>>>> f6abf25 (work section)
 }
 
 .slides-BTNS .prev i,
@@ -275,14 +272,11 @@ body {
     color: var(--gray-dark) !important;
 }
 
-<<<<<<< HEAD
-=======
 .work-details{
     display: flex;
     align-items: center;
     flex-direction: column;
 }
->>>>>>> f6abf25 (work section)
 
 /* slider */
 
@@ -362,6 +356,11 @@ body {
 .contact-desc {
     font-size: 18px;
     color: var(--gray-dark);
+}
+
+.ltr{
+    direction: ltr;
+    float: right;
 }
 
 /* footer */
