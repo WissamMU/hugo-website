@@ -1,0 +1,233 @@
+:root {
+    --black: #000000;
+    --semi-black: #191919;
+    --gray: #9c9c9c;
+    --light-gray: #bfbfbf;
+    --blue: #03a9f4;
+    --transition: all 0.5s ease;
+}
+
+/* general */
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: 'Tajawal', sans-serif;
+    direction: rtl;
+}
+
+.hide {
+    display: none;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* hero */
+
+.hero {
+    padding: 100px 90px 0;
+    position: relative;
+    background-image: linear-gradient(rgb(99 99 99 / 60%), rgb(0 0 0 / 60%)), url("../images/hero.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__container>h1 {
+    margin-bottom: 15px;
+    margin-top: 0;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+.hero__container>h3 {
+    margin: 0;
+    text-align: center;
+    direction: rtl;
+    color: white;
+    font-size: 22px;
+    line-height: 35px;
+}
+
+.hero__container>.down-arrow {
+    position: absolute;
+    bottom: 45px;
+    font-size: 30px;
+    color: var(--blue);
+}
+
+/* navbar */
+.navbar {
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: transparent !important;
+    transition: var(--transition);
+}
+
+.navbar__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__container>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar__container>ul>li {
+    font-size: 20px;
+}
+
+.navbar__container .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar__container .logo i {
+    font-size: 45px;
+    color: white;
+    transition: var(--transition);
+}
+
+.navbar__container .logo b {
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+    transform: var(--transition);
+}
+
+.navbar__container>ul>li:not(:last-child) {
+    margin-left: 28px;
+
+}
+
+.navbar__container>ul>li>a {
+    color: white;
+    text-decoration: none;
+    transform: var(--transition);
+    padding: 15px 13px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.navbar__container>ul>li>a:hover {
+    color: var(--blue);
+    background-color: white;
+}
+
+.navbar__container--main {
+    justify-content: space-between;
+}
+
+/* services section */
+
+.services{
+    position: relative;
+    padding: 120px 20px 50px ;
+}
+.services__container{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__container>h2 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.services__container>h3 {
+    margin-top: 0;
+    color: var(--gray);
+}
+
+.services__container>h2:before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+    left: 0;
+    margin: auto;
+    width: 28px;
+    height: 4px;
+    background-color: var(--blue);
+}
+
+.services-display {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.services-display__card {
+    width: 50%;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.services-display__card-icon {
+    width: 18%;
+}
+
+.services-display__card-icon>i {
+    font-size: 70px;
+    color: var(--blue);
+}
+
+.services-display__card-info>a {
+    font-size: 25px;
+    color: var(--black);
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+
+.services-display__card-info>a:hover {
+    color: var(--blue);
+}
+
+.services-display__card-info>p {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    max-width: 80%;
+}
