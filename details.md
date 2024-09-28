@@ -83,5 +83,5 @@ some hugo tools i guess
 2. .Site.Data :         This refers to data stored in your project's data directory. Hugo uses this information within your templates.
 3. .Site.RegularPages:  This refers to all regular pages in your project, excluding content like posts or drafts. You can use this to access information from those pages.
 4. range :              loops through a collection of items, performing actions on each one.
-5. .Parms.somthing :    Accesses front matter data in Hugo templates.
+5. .Params.somthing :   Accesses front matter data in Hugo templates.
 6. RelPermalink :       Returns the relative URL of the current page in Hugo.
