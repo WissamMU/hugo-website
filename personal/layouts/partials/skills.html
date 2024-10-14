@@ -1,0 +1,17 @@
+<div class="card card-full">
+    <h2>مهاراتي </h2>
+    <div class="skills">
+        <div class="skills__holder">
+            {{range .Site.Data.skills2}}
+            <div class="skill">
+                <div class="skill__icon">
+                    <img src="{{ .icon }}" alt="img not found">
+                </div>
+                <div class="skill__name">
+                    <h2>{{ .title }}</h2>
+                </div>
+            </div>
+            {{end}}
+        </div>
+    </div>
+</div>

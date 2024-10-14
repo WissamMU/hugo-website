@@ -1,0 +1,34 @@
+{
+    "skill1": {
+        "title": "css",
+        "icon": "images/skills/css.png"
+    },
+    "skill2": {
+        "title": "javascript",
+        "icon": "images/skills/js.png"
+    },
+    "skill3": {
+        "title": "html",
+        "icon": "images/skills/html.png"
+    },
+    "skill4": {
+        "title": "bootstrap",
+        "icon": "images/skills/bootstrap.png"
+    },
+    "skill5": {
+        "title": "sass",
+        "icon": "images/skills/sass.png"
+    },
+    "skill6": {
+        "title": "webpack",
+        "icon": "images/skills/webpack.png"
+    },
+    "skill7": {
+        "title": "api",
+        "icon": "images/skills/api.png"
+    },
+    "skill8": {
+        "title": "jquery",
+        "icon": "images/skills/jquery.png"
+    }
+}
