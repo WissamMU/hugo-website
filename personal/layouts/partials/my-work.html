@@ -1,37 +1,21 @@
-<div class="card card--full">
-    <h2>أعمالي السابقة <p>اضغط على الصورة للذهاب للعمل</p>
-    </h2>
+{{ range .Site.Data.work }}
 
-    <div class="slides-container" id="work">
-
-        <div class="slide-container__wraper">
-
-            {{ range .Site.Data.work }}
-
-            <div class="slides fade">
-                <div class="image-holder">
-                    <div class="overlay">
-                        <h2 class="work-details"> {{.Details}}
-                            <a class="visit-btn" target="_blank" href="{{ .link }}">
-                                اذهب الى الموقع
-                            </a>
-                        </h2>
+<ul class="work-cards">
+    <li>
+        <a href="{{.link}}" class="work-card" target="_blank">
+            <img src="{{.src}}" class="work-card__image" alt="" />
+            <div class="work-card__overlay">
+                <div class="work-card__header">
+                    <svg class="work-card__arc" xmlns="http://www.w3.org/2000/svg">
+                        <path />
+                    </svg>
+                    <div class="work-card__header-text">
+                        <h3 class="work-card__title">{{ .title }}</h3>
                     </div>
-                    <a href="{{ .link }}" >
-                        <img src="{{ .src }}" alt="معرض الاعمال">
-                    </a>
                 </div>
+                <p class="work-card__description">اضغط للذهاب للموقع</p>
             </div>
-
-            {{ end }}
-
-        </div>
-
-        <div class="slides-BTNS">
-            <span class="next"><i class="fas fa-chevron-right"></i></span>
-            <span class="prev"><i class="fas fa-chevron-left"></i></span>
-        </div>
-
-    </div>
-
-</div>
+        </a>
+    </li>
+</ul>
+{{end}}
